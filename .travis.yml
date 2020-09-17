@@ -26,4 +26,4 @@ matrix:
   - os: osx
     r: bioc-devel
 
-dist: trusty
+dist: focal
