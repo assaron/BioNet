@@ -21,7 +21,9 @@ License: GPL (>= 2)
 Depends: R (>= 2.10.0), graph, RBGL
 Suggests: rgl, impute, DLBCL, genefilter, xtable, ALL, limma,
         hgu95av2.db, XML
-Imports: igraph (>= 1.0.1), AnnotationDbi, Biobase
+Imports: igraph (>= 1.0.1),
+    AnnotationDbi, Biobase, methods,
+    grDevices, graphics, stats, utils 
 LazyLoad: yes
 URL: http://bionet.bioapps.biozentrum.uni-wuerzburg.de/
 biocViews: Microarray, DataImport, GraphAndNetwork, Network,
